@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using FileIntegrityMonitor.Common.Utilities;
@@ -27,7 +29,7 @@ namespace FileIntegrityMonitor.Common
             ComputeHash();
             if (!Sha1.SequenceEqual(oldSha1) || !Md5.SequenceEqual(oldMd5))
             {
-                Logger.LogError("Invalid Hash: " + Path);
+                Logger.Log(new FileEventArgs{ChangeType = WatcherChangeTypes.Changed, Date = DateTime.Now, FullPath = Path});
                 return false;
             }
 
