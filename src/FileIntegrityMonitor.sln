@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIntegrityMonitor.Service", "FileIntegrityMonitor.Service\FileIntegrityMonitor.Service.csproj", "{5822B6AD-FD05-4456-9414-7613A1F1CC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIntegrityMonitor.Notifier", "FileIntegrityMonitor.Notifier\FileIntegrityMonitor.Notifier.csproj", "{7CB743FD-EDE6-4106-A6E9-7C8C8484A67E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIntegrityMonitor.Configurator", "FileIntegrityMonitor.Configurator\FileIntegrityMonitor.Configurator.csproj", "{73B26D94-7374-459D-8179-34BF0FDD8C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIntegrityMonitor.Common", "FileIntegrityMonitor.Common\FileIntegrityMonitor.Common.csproj", "{CE78E35F-CE8E-49D4-BF0D-03DC937A500B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C4644A5-86CE-4F34-B1FB-1B42B0F9E3A6}"
+	ProjectSection(SolutionItems) = preProject
+		TODO.txt = TODO.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs25
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FileIntegrityMonitor.Common\\FileIntegrityMonitor.Common.csproj
+		SccProjectName1 = FileIntegrityMonitor.Common
+		SccLocalPath1 = FileIntegrityMonitor.Common
+		SccProjectUniqueName2 = FileIntegrityMonitor.Configurator\\FileIntegrityMonitor.Configurator.csproj
+		SccProjectName2 = FileIntegrityMonitor.Configurator
+		SccLocalPath2 = FileIntegrityMonitor.Configurator
+		SccProjectUniqueName3 = FileIntegrityMonitor.Notifier\\FileIntegrityMonitor.Notifier.csproj
+		SccProjectName3 = FileIntegrityMonitor.Notifier
+		SccLocalPath3 = FileIntegrityMonitor.Notifier
+		SccProjectUniqueName4 = FileIntegrityMonitor.Service\\FileIntegrityMonitor.Service.csproj
+		SccProjectName4 = FileIntegrityMonitor.Service
+		SccLocalPath4 = FileIntegrityMonitor.Service
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5822B6AD-FD05-4456-9414-7613A1F1CC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5822B6AD-FD05-4456-9414-7613A1F1CC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5822B6AD-FD05-4456-9414-7613A1F1CC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5822B6AD-FD05-4456-9414-7613A1F1CC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB743FD-EDE6-4106-A6E9-7C8C8484A67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB743FD-EDE6-4106-A6E9-7C8C8484A67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB743FD-EDE6-4106-A6E9-7C8C8484A67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB743FD-EDE6-4106-A6E9-7C8C8484A67E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B26D94-7374-459D-8179-34BF0FDD8C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B26D94-7374-459D-8179-34BF0FDD8C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B26D94-7374-459D-8179-34BF0FDD8C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B26D94-7374-459D-8179-34BF0FDD8C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE78E35F-CE8E-49D4-BF0D-03DC937A500B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE78E35F-CE8E-49D4-BF0D-03DC937A500B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE78E35F-CE8E-49D4-BF0D-03DC937A500B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE78E35F-CE8E-49D4-BF0D-03DC937A500B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

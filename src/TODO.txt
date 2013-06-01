@@ -1,0 +1,2 @@
+SNMP trap
+Minimum privilege (assembly & sc priv)

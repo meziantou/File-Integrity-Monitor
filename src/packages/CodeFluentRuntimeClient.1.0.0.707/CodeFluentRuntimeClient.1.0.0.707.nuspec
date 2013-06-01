@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CodeFluentRuntimeClient</id>
+    <version>1.0.0.707</version>
+    <title>CodeFluentRuntimeClient</title>
+    <authors>SoftFluent</authors>
+    <owners>SoftFluent</owners>
+    <licenseUrl>http://www.softfluent.com/docs/eula/codefluentruntimeclient_eula.pdf</licenseUrl>
+    <projectUrl>http://www.softfluent.com/products/codefluent-runtime-client</projectUrl>
+    <iconUrl>http://www.softfluent.com/images/logos_sf/cflogo-32x32.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A library of utilities usable across all types of .NET applications (WPF, WinForms, ASP.NET, console, service, etc.). Available utilities are: XmlUtilities, AssemblyUtilities, IOUtilities, ConvertUtilities, JsonUtilities, CommandLineUtilities, WizardForm, RibbonControl, DockPanel, EditableUri, BitsServer, NtfsAlternateStream, ZipFile, UITypeEditors, TypeConverters, ChunkedMemoryStream, ContentType, Country, CustomThreadPool, Crc16, Crc32, DistinctDictionary, AutoObject, GrammaticalNumberConverter, CompoundFile, ScriptEngine, PerceivedType, Template Engine and more! Visit the product page for more information!</description>
+    <summary>A library of utilities usable across all types of .NET applications (WPF, WinForms, ASP.NET, console, service, etc.).</summary>
+    <releaseNotes>Now includes classes to open CompoundFile and storage.</releaseNotes>
+    <copyright>Copyright (C) 2005-2013 SoftFluent S.A.S. All rights reserved.</copyright>
+    <language>en-US</language>
+    <tags>Utilities Tools Helpers Library Classes XML Assembly IO File Directory Convert Type Conversion CommandLine Url BITS JSON NTFS Zip UITypeEditors Mime Country Location Crc16 Crc32 ThreadPool Threading Dictionary Singular Plural Wizard Form Ribbon Control DockPanel Compound</tags>
+  </metadata>
+</package>
