@@ -182,7 +182,10 @@ namespace FileIntegrityMonitor.Configurator
             {
                 if (openFileDialog1.ShowDialog().ToBoolean())
                 {
-                    watcherBindingSource.Add(new WatcherConfiguration() { Path = openFileDialog1.FileName });
+                    foreach (var fileName in openFileDialog1.FileNames)
+                    {
+                        watcherBindingSource.Add(new WatcherConfiguration() { Path = fileName });    
+                    }
                 }
             }
             //// ReSharper disable EmptyGeneralCatchClause
